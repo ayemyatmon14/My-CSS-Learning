@@ -1,0 +1,46 @@
+/* Single Selector */
+h1 {
+    color: yellow;
+    font-size: 25px;
+}
+
+/* Group Selector */
+h2,
+h3 {
+    color: rebeccapurple;
+    font-size: 10px;
+
+}
+
+h4 {
+    color: green;
+}
+
+/* ID Selector */
+#ygn,
+i,
+#myself {
+    color: aqua;
+}
+
+#thai {
+    color: rgb(89, 10, 96);
+    font-size: 20px;
+}
+
+span {
+    color: yellowgreen;
+
+}
+
+.fontlg,i {
+    font-size: 50px;
+}
+
+.phone2 {
+    color: pink;
+   
+}
+
+/* ID Selector */
+/* Class Selector */
