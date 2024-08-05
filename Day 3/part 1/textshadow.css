@@ -1,0 +1,4 @@
+.textshadow {
+    /* text-shadow: -8px -10px 1px peru; */
+    text-shadow: 5px 0px 3px yellow, 0 -5px 5px blueviolet, 5px 0px 4px red;
+}
