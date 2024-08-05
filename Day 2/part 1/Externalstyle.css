@@ -5,8 +5,7 @@ h1 {
 }
 
 /* Group Selector */
-h2,
-h3 {
+h2, h3 {
     color: rebeccapurple;
     font-size: 10px;
 
@@ -17,9 +16,7 @@ h4 {
 }
 
 /* ID Selector */
-#ygn,
-i,
-#myself {
+#ygn, i, #myself {
     color: aqua;
 }
 
@@ -33,13 +30,13 @@ span {
 
 }
 
-.fontlg,i {
+.fontlg, i {
     font-size: 50px;
 }
 
 .phone2 {
     color: pink;
-   
+
 }
 
 /* ID Selector */
