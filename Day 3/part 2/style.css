@@ -36,6 +36,69 @@
     /* border-radius: 20px 50px 30px 20px;*/
 
     /* short hand */
-    /* s s c */
+    /* b s c */
     border: 5px dashed yellow;
+}
+
+ul {
+    /* list-style-type: none; */
+    /* list-style: none; */
+}
+
+li {
+    border: 1px;
+    border-style: dashed;
+    border-color: blue;
+
+    /* list-style-type: circle;
+    list-style-type: decimal;
+    list-style-type: square; */
+    /* list-style-type: decimal-leading-zero; */
+
+    list-style-position: inside;
+}
+
+/* Attribute Selector */
+
+input[type="text"] {
+    width: 250px;
+    background-color: aqua;
+    color: bisque;
+    border-radius: 5px;
+    border-style: double;
+}
+
+input[type="password"],
+input[type="email"] {
+    width: 250px;
+    background-color: aqua;
+    color: bisque;
+    border-radius: 5px;
+    border-style: double;
+}
+
+body {
+    background-image: url("logoimg/images.png");
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+
+    /* background-position: center; */
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+
+    /* background-position: right top; */
+    /* background-position: left top; */
+    /* background-position: right bottom; */
+    /*background-possition: left bottom; */
+
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+    
+
+
+
+
+   
 }
