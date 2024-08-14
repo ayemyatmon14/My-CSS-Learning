@@ -3,11 +3,34 @@
 /* (2) Global Integration or Project Folder Integrate */
 
 
-/*
-Universal Selector အမြဲတမ်းထိပ်ဆုံးမှာပဲရေးမယ်
-p {
+/* Universal Selector အမြဲတမ်းထိပ်ဆုံးမှာပဲရေးမယ် */
+body {
     cursor: pointer;
-} */
- 
- 
+}
 
+/*  
+body {
+    font-style: italic;
+} */
+/* 
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* 
+.p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+.p3 {
+    color: burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* 
+body {
+    font-family: "Stick", sans-serif;
+} */
+
+body {
+    color: brown;
+    font-family: "Akaya Telivigala", system;
+}
