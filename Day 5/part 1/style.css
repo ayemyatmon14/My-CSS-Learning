@@ -4,10 +4,39 @@
 
 
 /* Universal Selector အမြဲတမ်းထိပ်ဆုံးမှာပဲရေးမယ် */
+
+/* at rules */
+@import url(add_file.css);
+
+
+@font-face {
+    font-family: "Stick";
+    src: url('Font/Stick/Stick-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Akaya Telivigala";
+    src: url('Font/Akaya_Telivigala/AkayaTelivigala-Regular.ttf');
+}
+
+
 body {
     cursor: pointer;
 }
 
+
+/* !important */
+.p2 {
+    color: brown;
+}
+
+.p1 {
+    font-family: "Stick";
+}
+
+.p4 {
+    font-family: "Akaya Telivigala";
+}
 /*  
 body {
     font-style: italic;
@@ -21,6 +50,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } */
 
+
 .p3 {
     color: burlywood;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -29,8 +59,16 @@ body {
 body {
     font-family: "Stick", sans-serif;
 } */
-
+/* 
 body {
-    color: brown;
     font-family: "Akaya Telivigala", system;
+} */
+
+.clickme {
+    text-decoration: none;
+}
+/* 
+pseudo class pointer တင်ရင် အောက်က မျဉ်းကြောင်းထင်တာ */
+.clickme:hover {
+    text-decoration: underline;
 }
