@@ -66,9 +66,53 @@ body {
 
 .clickme {
     text-decoration: none;
+    color: aquamarine;
 }
 /* 
 pseudo class pointer တင်ရင် အောက်က မျဉ်းကြောင်းထင်တာ */
 .clickme:hover {
     text-decoration: underline;
+    font-size: 20px;
 }
+
+.clickme:visited {
+    color: black;
+}
+
+.menutext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    text-decoration: none;
+
+    /* padding: 10px; */
+
+             /* Top  bottom left right */
+    /* padding: 10px 20px; */
+
+          /* Top right bottom left */
+    padding: 10px 20px 20px 20px;
+    border-radius: 15px;
+
+    transition: all 2s;
+}
+
+.menutext:hover {
+    background-color: brown;
+    color: #000;
+    font-size: 10px;
+
+}
+
+.imgdesign {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+
+    transition: all 3s;
+}
+
+.imgdesign:hover {
+    width: 100px;
+    height: 100px;
+}
+
