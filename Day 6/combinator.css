@@ -1,0 +1,47 @@
+/* tag to tag */
+/* div span {
+    color: yellowgreen;
+}
+
+span p {
+    color: green;
+}
+
+/* Multi Tag to Tag */
+/* div span p {
+    color:blueviolet;
+} */ 
+
+/* Tag to class */
+/* div .address {
+    color: #f75353;
+} */
+
+/* multi Tag to Class */
+/* div span .adress {
+    color: aquamarine;
+} */
+
+/* Multi Tag to same class */
+/* div span small.name {
+    color:#f0f8;
+} */
+
+/* Class to Class */
+/* .bank .money {
+    color: brown;
+} */
+
+/* Class to Tag */
+.container b {
+    color: blueviolet;
+}
+
+/* Class to Multi Tag */
+.container b span {
+    color: green;
+}
+
+.mobile.jpn {
+    color:blue;
+}

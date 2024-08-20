@@ -1,20 +1,128 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Combintor</title>
-    <link href="combinator.css" rel="stylesheet" type="text/css" /> 
+    <link href="combinator.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    
+    <!-- 1 -->
     <h4>Tag to Tag</h4>
-
     <div>
-        <span>I am span tag inside of div > span</span>
+        <span>I am span tag outside of div > span</span>
     </div>
-
     <div>i am div tag outside of div</div>
-
     <span>I am span tag outside of div</span>
-    
+    <hr />
+
+    <!-- 2 -->
+    <h4>Multi Tag to Tag</h4>
+    <div>
+        <span>
+            <p>I am span tag inside of div > span > p</p>
+        </span>
+    </div>
+    <div>
+        <p> i am div tag inside of div > p</p>
+    </div>
+    <span>
+        <p>I am span tag inside of span > p </p>
+    </span>
+    <hr />
+
+    <!-- 3 -->
+    <h4>Tag to Class</h4>
+    <div>
+        <p class="address">i am p tag inside of div > p(address)</p>
+        <span>
+            <b class="address">I am span tag inside of div > span > b(address)</b>
+        </span>
+    </div>
+    <p class="address">i am p tag outside of div > p(address)</p>
+    <span>
+        <i class="address">I am span tag outside of div > span > i(address) </p>
+    </span>
+    <hr />
+
+    <!-- 4 -->
+    <h4>Multi Tag to Class</h4>
+    <div>
+        <p class="address">i am p tag inside of div > p(address)</p>
+        <span>
+            <b class="address">I am span tag inside of div > span > b(address)</b>
+        </span>
+    </div>
+    <p class="address">i am p tag outside of div > p(address)</p>
+    <span>
+        <i class="address">I am span tag outside of div > span > i(address) </p>
+    </span>
+    <hr />
+
+    <!-- 5 -->
+    <h4>Multi Tag to Same Class</h4>
+    <div>
+        <span>
+            <small class="name">I am small tag inside of div > span > small(name)</small>
+        </span>
+
+        <p class="name">i am p tag outside of div > p(name)</p>
+        <p>i am p tag outside of div > p</p>
+    </div>
+    <hr />
+
+    <!-- 6 -->
+    <h4>Class to Class</h4>
+    <div class="bank">
+        <b>i am p tag outside of div(bank) > b</b>
+        <br />
+
+        <span class="money">
+            <b class="currency">I am small tag inside of div > span > small(name)</small>
+        </span>
+    </div>
+    <hr />
+
+    <!-- 7 -->
+    <h4>Class to Tag</h4>
+    <div class="container">
+        <p>I am span tag outside of div(continer) > p</p>
+        <b>I am span tag outside of div(continer) > b</b>
+    </div>
+    <hr />
+
+    <!-- 8 -->
+    <h4>Class to Multi Tag</h4>
+    <div class="container">
+        <p>I am span tag outside of div(continer) > p</p>
+        <b>
+            <span>
+                I am span tag outside of div(continer) > b > span
+            </span>
+        </b>
+    </div>
+    <hr />
+
+    <!-- 9 -->
+    <h4>Same Class</h4>
+    <div>
+        <ul>
+            <li class="mobile jpn">Sony Phone</li>
+            <li class="mobile cn">Mi Phone</li>
+            <li class="mobile indo">Samsung Phone</li>
+            <li class="mobile us">iPhone</li>
+        </ul>
+    </div>
+    <hr />
+
+    <!-- 10 -->
+    <h4>Class to Tag by group Selector</h4>
+    <div class="div1">
+        <p>I am span tag outside of div(div1) > p</p>
+        <b>I am span tag outside of div(div1) > b</b>
+    </div>
+    <hr />
+
 </body>
+
 </html>
