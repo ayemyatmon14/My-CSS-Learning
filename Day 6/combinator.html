@@ -41,7 +41,7 @@
     </div>
     <p class="address">i am p tag outside of div > p(address)</p>
     <span>
-        <i class="address">I am span tag outside of div > span > i(address) </p>
+        <p class="address">I am span tag outside of div > span > i(address) </p>
     </span>
     <hr />
 
@@ -55,7 +55,7 @@
     </div>
     <p class="address">i am p tag outside of div > p(address)</p>
     <span>
-        <i class="address">I am span tag outside of div > span > i(address) </p>
+        <p class="address">I am span tag outside of div > span > i(address) </p>
     </span>
     <hr />
 
@@ -121,6 +121,66 @@
         <p>I am span tag outside of div(div1) > p</p>
         <b>I am span tag outside of div(div1) > b</b>
     </div>
+
+    <hr />
+
+    <h4>Child Selector</h4>
+    <div class="div2">
+        <b>I am b tag outside of div(div2) > b1</b>
+        <p>I am p tag outside of div(div2) > p1</p>
+        <i>I am i tag outside of div(div2) > i1</i>
+
+        <div class="div3">
+            <b>I am b tag outside of div(div2) > (div3) > b2</b>
+            <p>I am p tag outside of div(div2) > (div3) > p2</p>
+            <i>I am i tag outside of div(div2) > (div3) > i2</i>
+
+        </div>
+
+        <p>i am p tag inside of div(div2) > p3</p>
+
+    </div>
+
+    <b>I am b tag outside of div(div2) > b3</b>
+    <p>I am p tag outside of div(div2) > p4</p>
+    <i>I am i tag outside of div(div2) > i3</i>
+
+    <hr />
+
+    <h4>(1)General Silbling Selector</h4>
+    <div class="div4">
+        <b>I am b tag outside of div(div4) > b1</b>
+        <p>I am p tag outside of div(div4) > p1</p>
+        <i>I am i tag outside of div(div4) > i1</i>
+
+        <div class="div5">
+            <b>I am b tag outside of div(div5) > (div4) > b2</b>
+            <p>I am p tag outside of div(div5) > (div4) > p2</p>
+            <i>I am i tag outside of div(div5) > (div4) > i2</i>
+
+        </div>
+
+        <b>I am b tag outside of div(div4) > b3</b>
+        <p>I am p tag outside of div(div4) > p3</p>
+        <i>I am i tag outside of div(div4) > i3</i>
+
+
+        <div class="div6">
+            <b>i am b tag innside of div(div4) , inside of div(div6) > b4</b>
+            <p>i am p tag inside of div(div4) , inside of div(div6) > p4</p>
+            <i>i am i tag inside of div(div4) , inside of div(div6)> i4</i>
+        </div>
+
+        <b>i am b tag innside of div(div4/div6) > b5</b>
+        <p>i am p tag inside of div(div4/div6) > p5</p>
+        <i>i am i tag inside of div(div4/div6) > i5</i>
+
+    </div>
+
+    <b>I am b tag outside of div(div4/div6) > b6</b>
+    <p>I am p tag outside of div(div4)/div6 > p6</p>
+    <i>I am si tag outside of div(div4)/div6 > i6</i>
+
     <hr />
 
 </body>

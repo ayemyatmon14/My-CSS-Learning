@@ -43,5 +43,31 @@ span p {
 }
 
 .mobile.jpn {
-    color:blue;
+    color: blue;
 }
+
+h4 {
+    color: yellow;
+}
+
+/* Child Selector (>) */
+.div2 > p {
+    color:brown;
+}
+
+.div3 > i {
+    color: yellow;
+}
+
+/* Sibling Selector (2 type) */
+/* (1) General Silbling Selector (~)*/
+.div4 ~ b {
+    color: red;
+}
+
+
+/* (2) Adjacent Silbling Selector (+) */
+.div6 + b {
+    color: yellow;
+}
+
