@@ -1,0 +1,10 @@
+/* Pseudo Class */
+
+.div1,.div2,.div3,.div4,.div5 {
+    width: 200px;
+    height: 100px;
+}
+
+.div3:hover {
+    color: yellowgreen;
+}
